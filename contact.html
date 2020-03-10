@@ -2,11 +2,15 @@
 <html>
 <head>
 	<title></title>
+	<link rel="icon" href="https://www.veracode.com/sites/default/files/styles/blog_post_resize_1400/public/developer-guide-blog-2.png?itok=2Ow6ZQ94">
+	
+
 </head>
 <body>
 <hr>
-	<a href="index.html" target="blank">Home</a>
-	<a href="contact.html">CONTACT</a>
+	<a href="index.html" target="blank">Home</a>&nbsp
+	<a href="contact.html">CONTACT</a>&nbsp
+	<a href="gallery.html">Gallery</a>&nbsp
 	<table cellspacing="10">
 		<tr>
 			<td><img src="assets/image/a.jpg" alt="Kidus Yohannes profile picture"></td>
@@ -16,41 +20,76 @@
 </tr>
 </table>
 <hr>
-<form action="mailto:se.kidus.yohannes@gmail.com" method="POST">
-	<H2>Leave your comment here</H2>
-	<label for="fName">First Name</label>&nbsp
-	<input type="text" name="fName" id="fName">
+<table>
+	<caption><h1>Contact me</h1><hr></td></caption>
+	<tr>
+		<td>
+			<form action="mailto:se.kidus.yohannes@gmail.com" method="POST">
+			<table>
+			<tr>
+				<td><label for="fName">First Name</label>&nbsp</td>
+				<td><input type="text" pattern="[A-za-z]{4,10}" name="fName" id="fName"></td>
+			</tr>
+			<tr>
+				<td><label for="lName">Last Name</label>&nbsp</td>
+				<td><input type="text" pattern="[A-za-z]{4,10}" name="lName" id="lName"></td>
+			</tr>
+			<tr>
+				<td><label for="email">Email</label>&nbsp</td>
+				<td><input type="email" name="email" id="email"></td>
+			</tr>
+			<tr>
+				<td><label for="tel">Phone Number</label>&nbsp</td>
+				<td> <input type="tel" id="tel" pattern="[0-9]{10}" name="tel"><br></td>
+			</tr>
+			<tr>
+				<td> <label for="date">Date</label>&nbsp</td>
+				<td> <input type="date" name="date" id="date"></td>
+			</tr>
+			<tr>
+				<td><label for="country">Country</label>&nbsp</td>
+				<td><select name="country">
+		<option value="Ethiopia">Ethiopia</option>
+		<option value="Keneya">Keneya</option>
+</select></td>
+			</tr>
+			<tr>
+				<td><label for="detail">what do you say?</label></td>
+				<td><textarea type="text" name="detail" id="detail"></textarea> </td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="submit"></td>
+			</tr>
+			
+
+
+
+
+
+
+
+
+		</table>
+	</form>
+	</td>
+		<td><div class="mapouter"><div class="gmap_canvas"><iframe width="758" height="440" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.org"></a></div><style>.mapouter{position:relative;text-align:right;height:440px;width:758px;}.gmap_canvas {overflow:hidden;background:none!important;height:440px;width:758px;}</style></div></td>
+
+
+
+
+
+	</tr>
+
+</table>
 	<br>
 
-	<label for="lName">Last Name</label>&nbsp
-	<input type="text" name="lName" id="lName">
-	<br>
-
-	<label for="email">Email</label>&nbsp
-	<input type="email" name="email" id="email">
-	<br>
-	<select name="country">
-		<option value="Asia">Asia</option>
-		<option value="Africa">Asia</option>
-</select>
-<br>
-	<label for="detail">what do you say?</label>
-	<br>
-	<textarea type="text" name="detail" id="detail"></textarea> 
-<br>
-	<input type="submit" value="submit">
-
-
-
-
-</form>
-	<br>
-
-
-
+    <br>
 	<hr>
-	<hr>
-	<a href="">Face book</a> | <a href="">twitter</a>
+	<p><h2>Contact US</h2></p>
+	<br>
+	<a href="">Face book</a> | <a href="">twitter</a> | <a href="">Instagram</a> | <a href="">Whatsapp</a> 
+	<br>
+	<br>
 	<hr>
 	<p align="center">Developed by kidus</p>
 	<hr>
