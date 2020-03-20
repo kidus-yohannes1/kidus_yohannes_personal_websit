@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(211, 211, 211, 0.63);
+}
+nav{
+    position: fixed;
+    margin-top: 0px;
+    padding: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin-top: 10px;
+    overflow: hidden;
+    background-color:lightgreen;
+  }
+  
+  li {
+    display: inline-flex;
+  }
+  
+nav > ul > li a {
+    display: block;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 14px 19px;
+    text-decoration: none;
+  }
+  @media (hover: hover) {
+    nav > ul >li a:hover {
+        font-size: 80px;
+        background-color: yellow;
+     }
+}
+.answer{
+    padding-top: 12%;
+    margin-left: 4%;
+ 
+    
+}
+.answer h1{
+    font-size: 50px;
+    text-decoration:red;
+    padding-bottom: 2%;
+    padding-left: 6%;
+}
+.answer p{
+    font-size: 25px;
+}
+.answer h3{
+    font-size: 35px;
+    padding-left: 4%;
+}
+.row4{
+    border-bottom: solid 1px black;
+    font-size:30px;
+    border-top: solid 1px black;
+}
