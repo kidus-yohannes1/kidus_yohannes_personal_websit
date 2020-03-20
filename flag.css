@@ -1,0 +1,224 @@
+.flag{
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.flag .title{
+    display: flex;
+}
+.flag .title .a{
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.flag .title .b{
+    flex: 1;
+    margin-right: 40px;
+ 
+}
+.flag .title .c{
+    flex: 1;
+   
+}
+.flag .row1{
+    display: flex;
+}
+.flag .row1 .rus{
+    border: 1px solid gray;
+
+    border-top:  solid green 80px;
+    border-bottom: solid red 80px;
+    padding-bottom: 80px;
+    background-color: yellow;
+    width: 390px;
+   
+    margin-right: 30px;
+}
+.flag .row1 .rus .circle{
+    border-radius: 50%;
+    
+    height: 80px;
+    width: 90px;
+    background-color:blue;
+  
+    margin-left: 160px;
+    position: absolute;
+    margin-bottom: 30px;
+}
+.flag .row1 .fra{
+    border: 1px solid gray;
+    border-top:  solid black 80px;
+    border-bottom: solid red 80px;
+    padding-bottom: 80px;
+    background-color: yellow;
+    width: 390px;
+    
+    margin-right: 30px;
+}
+.flag .row1 .eth{
+    border: 1px solid gray;
+    border-left: blue solid 130px;
+    border-right: red solid 130px ;
+    background-color: white;
+    height:240px;
+    width: 130px;
+}
+
+.flag .title2{
+    display: flex;
+}
+.flag .title2 .a{
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 40px;
+    
+}
+.flag .title2 .b{
+    flex: 1;
+    margin-right: 40px;
+ 
+}
+.flag .title2 .c{
+    flex: 1;
+   
+}
+.flag .row2{
+    display: flex;
+}
+.flag .row2 .et{
+    border-top:  solid rgb(64, 203, 250);;
+    border-bottom: solid rgb(64, 203, 250);;
+    padding-bottom: 80px;
+    background-color: rgb(64, 203, 250);
+    width: 390px;
+    margin-right: 30px;
+
+}
+.flag .row2 .fr{
+
+    border-top:  solid green 80px;
+    border-bottom: solid green 80px;
+    padding-bottom: 80px;
+    background-color: green;
+    width: 390px;
+    margin-right: 30px;
+}
+.flag .row2 .fr .circle{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    margin-left: 10%;
+    position: absolute;
+    margin-bottom: 30px;
+}
+.flag .row2 .sen{
+  
+    border-left: green solid 130px;
+    border-right: red solid 130px ;
+    background-color: yellow;
+    height:240px;
+    width: 130px;
+    
+}
+
+
+
+.flag .title3{
+    display: flex;
+}
+.flag .title3 .a{
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.flag .title3 .b{
+    flex: 1;
+    margin-right: 40px;
+ 
+}
+.flag .title3 .c{
+    flex: 1;
+   
+}
+.flag .row3{
+    display: flex;
+}
+.flag .row3 .e{
+    border: 1px solid gray;
+
+    border-top:  solid red 80px;
+    border-bottom: solid red 80px;
+    padding-bottom: 80px;
+    background-color: white;
+    width: 390px;
+    margin-right: 30px;
+}
+.flag .row3 .f{
+    border: 1px solid gray;
+    border-top:  solid green 80px;
+    border-bottom: solid blue 80px;
+    padding-bottom: 80px;
+    background-color: yellow;
+    width: 390px;
+    margin-right: 30px;
+}
+.flag .row3 .se{
+    border: 1px solid gray;
+    border-left: green solid 130px;
+    border-right:green solid 130px ;
+    background-color: white;
+    height:240px;
+    width: 130px;
+    
+}
+
+
+
+
+
+.flag .title4{
+    display: flex;
+}
+.flag .title4 .a{
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.flag .title4 .b{
+    flex: 1;
+    margin-right: 40px;
+ 
+}
+.flag .title4 .c{
+    flex: 1;
+   
+}
+.flag .row4{
+    display: flex;
+}
+.flag .row4 .e{
+    border: 1px solid gray;
+
+    border-top:  solid red 80px;
+    border-bottom: solid green 80px;
+    padding-bottom: 80px;
+    background-color: white;
+    width: 390px;
+    margin-right: 30px;
+}
+.flag .row4 .f{
+    border: 1px solid gray;
+    border-top:  solid blue 120px;
+    border-bottom: solid yellow 120px;
+    width: 390px;
+    margin-right: 30px;
+}
+.flag .row4 .se{
+    border: 1px solid gray;
+    border-left: green solid 130px;
+    border-right: red solid 130px ;
+    background-color: white;
+    height:240px;
+    width: 130px;
+    
+}
