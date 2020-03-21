@@ -3,58 +3,80 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="blog_style.css">
+	<link rel="icon" href="assets/image/my.jpeg">
 </head>
 <body>
-<header position="fixed">
 	<nav>
 		<ul>
-			<li><a href="index.html"></a>Home</li>
-			<li><a href="contact.html"></a>Contact</li>
-			<li><a href="Blog.css"></a>Blog</li>
-		</ul>
-
-
-
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="mywork.html">My Work</a></li>
+			
+		  </ul>
 	</nav>
 </header>
 	<div id="content">
 	<section>
-		<p class="title">My first post</p>
+		<p class="title">Does it matter to use relative size(%,em,rem) one styling the size of an element so that the element is responsive ? Why ? [write your argument]
+  		</p>
 		<article>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris urna justo, maximus venenatis consectetur quis, luctus faucibus mi. In nec tortor sollicitudin, mattis sem id, scelerisque arcu. Fusce aliquet lacus a elit tempus, at pharetra elit consequat. Cras eget mi aliquet metus vehicula luctus. Nunc ullamcorper eros id lectus hendrerit, ut fringilla leo convallis. Etiam maximus ligula ex, eget tincidunt magna ullamcorper eget. Integer at tempor nisi. Nam odio lectus, porta quis condimentum quis, sollicitudin et ante. Pellentesque sed est nec velit vulputate placerat. Suspendisse ut sapien vitae libero hendrerit elementum vitae sit amet erat.
+			<p>
+				Using em and rem units gives us flexibility in our designs, and the ability to scale elements up and down, instead of being stuck with fixed sizes.But it does't mean our websit is fully responsive,A fully responsive website will adjust itself to look good on whichever device you are using to view it. Responsive website design means that the site is programmed to detect what type of device is being used and to respond accordingly. We can use this flexibility to make our designs easier to adjust during development, more responsive, and to allow browser users to control the overall scale of sites for maximum readability.
 
-Mauris semper est eget pretium rutrum. Maecenas ut metus id mi mattis varius. Cras non elementum leo. Aliquam mattis turpis vel laoreet rutrum. Vivamus consequat porta mattis. Phasellus in purus a elit tempus auctor. Duis tellus magna, dapibus auctor augue sit amet, facilisis gravida lorem. Cras ac commodo dolor, non efficitur orci. Pellentesque a metus viverra, tempor ligula non, cursus erat. Ut eget elit feugiat, lacinia nisi nec, bibendum dui. Nullam nec aliquet lectus. Nullam et blandit nulla. Ut pulvinar orci nunc, non faucibus sem aliquam quis. Nam eleifend faucibus est, at maximus ex posuere et. Phasellus a lacinia nisi.
-</p>
+Both em and rem units provide this flexibility and work in similar ways, so the big question is, when should we use em values and when should we use rem values?
+			</p>
 
 		</article>
-		<p class="date">March 13 2020 3:00 am</p>
+		<p class="date">March 19 2020 4:00 am</p>
 
 	</section>
 	<section>
-		<p class="title">My second post</p>
+		<p class="title">We said 16px is default browser width so what does it mean when we say 200px ? How does the browser interpret that ?</p>
 		<article>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris urna justo, maximus venenatis consectetur quis, luctus faucibus mi. In nec tortor sollicitudin, mattis sem id, scelerisque arcu. Fusce aliquet lacus a elit tempus, at pharetra elit consequat. Cras eget mi aliquet metus vehicula luctus. Nunc ullamcorper eros id lectus hendrerit, ut fringilla leo convallis. Etiam maximus ligula ex, eget tincidunt magna ullamcorper eget. Integer at tempor nisi. Nam odio lectus, porta quis condimentum quis, sollicitudin et ante. Pellentesque sed est nec velit vulputate placerat. Suspendisse ut sapien vitae libero hendrerit elementum vitae sit amet erat.
-
-Mauris semper est eget pretium rutrum. Maecenas ut metus id mi mattis varius. Cras non elementum leo. Aliquam mattis turpis vel laoreet rutrum. Vivamus consequat porta mattis. Phasellus in purus a elit tempus auctor. Duis tellus magna, dapibus auctor augue sit amet, facilisis gravida lorem. Cras ac commodo dolor, non efficitur orci. Pellentesque a metus viverra, tempor ligula non, cursus erat. Ut eget elit feugiat, lacinia nisi nec, bibendum dui. Nullam nec aliquet lectus. Nullam et blandit nulla. Ut pulvinar orci nunc, non faucibus sem aliquam quis. Nam eleifend faucibus est, at maximus ex posuere et. Phasellus a lacinia nisi.</p>
+			<p>The default font size for most browser is 16px, 1 rem. It's possible to change this size. When we make it 200px, we are making it, 12.5rem (200/16). 
+				The browser creates a Document Object Model (DOM) tree in which each node of the tree represents the html tag.
+				CSS Object Model (CSSOM), a map of the css style found in the web pages, will be created after a DOM tree is created.
+				By combining the two Render tree will be formed which is ready to be rendered. 
+				The brwoser traverses each node of DOM tree starting from the root and by applying appropriate CSSOM rules.
+				By doing this process procedurally, the brwoser displays the result as I mentioned above.
+				</p>
 
 		</article>
-		<p class="date">March 13 2020 3:00 am</p>
+		<p class="date">March 20 2020 6:00 am</p>
 
 	</section>
 	<section>
-		<p class="title">My thired post</p>
+		<p class="title">Explain in detail(in technical terms) the specific changes in css3 
+		</p>
 		<article>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris urna justo, maximus venenatis consectetur quis, luctus faucibus mi. In nec tortor sollicitudin, mattis sem id, scelerisque arcu. Fusce aliquet lacus a elit tempus, at pharetra elit consequat. Cras eget mi aliquet metus vehicula luctus. Nunc ullamcorper eros id lectus hendrerit, ut fringilla leo convallis. Etiam maximus ligula ex, eget tincidunt magna ullamcorper eget. Integer at tempor nisi. Nam odio lectus, porta quis condimentum quis, sollicitudin et ante. Pellentesque sed est nec velit vulputate placerat. Suspendisse ut sapien vitae libero hendrerit elementum vitae sit amet erat.
-
-Mauris semper est eget pretium rutrum. Maecenas ut metus id mi mattis varius. Cras non elementum leo. Aliquam mattis turpis vel laoreet rutrum. Vivamus consequat porta mattis. Phasellus in purus a elit tempus auctor. Duis tellus magna, dapibus auctor augue sit amet, facilisis gravida lorem. Cras ac commodo dolor, non efficitur orci. Pellentesque a metus viverra, tempor ligula non, cursus erat. Ut eget elit feugiat, lacinia nisi nec, bibendum dui. Nullam nec aliquet lectus. Nullam et blandit nulla. Ut pulvinar orci nunc, non faucibus sem aliquam quis. Nam eleifend faucibus est, at maximus ex posuere et. Phasellus a lacinia nisi.</p>
+			<p>From Specific changes in css3 #1 Box Shadows:It`s a new feature that allows a content slide beneath another area such as footer, to give an appearance as if it`s coming out or sinking into the website. The process is pretty simple and there is no need for the developer to create a new image or make use of JavaScript plugin.# 2 Font Additions:
+				Adding fonts is super easy in CSS 3, all you need to do is just upload the file to your server, link to the CSS file and add fonts as per your choice.#3 CSS3 Selectors:
+				Although CSS selectors were too present in the previous versions, but here they are more updated and improved. Using these selectors, choosing DOM elements on the basis of there attributes is extremely easy. You don`t really need to specify classes and IDs for each and every element. Instead, you can use these field elements to perform styling functions.
+				# 4 Rounded Corners:
+				The primary motive of rounded corners is spruce the overall look of a website, but to utilize it, a designer needs to struggle hard to write a plenty of code and adjusting other specifications such as height, width, and positioning of multiple elements.
+				
+				CSS3 addresses all these issues by presenting a feature called border-radius. The feature provides you all the rounded elements features without making you write a single line of code.#5 Border Images:
+				Another cool feature of CSS 3 is the introduction of border images. The feature allows you to exchange a border with an image. It helps you specify an image in place of a plain solid-colored border.#6 Opacity Levels:
+				Earlier, designers had to either create a new image or make use of CSS filters. But in CSS3, you simply need to provide an input “opacity:0.5” to get the desirable effects.#7 Transform:
+				The function allows you to determine how big an area would become when hover.#8 CSS3 Text Shadow:
+				The function allows you to add drop shadows to the text. In the previous version, the designers had to either use an image or a duplicate text element and then position it.
+				
+				While looking at the latest features and updates of CSS3 and HTML5, it could be said that designers will have now more possible ways to provide sophisticated projects, and thus make them forge their own paths.
+			</p>
 
 		</article>
-		<p class="date">March 13 2020 3:00 am</p>
+		<p class="date">March 20 2020 9:00 pm</p>
 
 	</section>
-
-
 
 </header>
+<div class="row4">
+	<p><h2>Contact US</h2></p>
+	<a href="">Face book</a> | <a href="">twitter</a> | <a href="">Instagram</a> | <a href="">Whatsapp</a> <br><br>
+</div>
+<p align="center" style="font-size: 20px;">Developed by kidus Yohannes</p>
+
 </body>
 </html>
